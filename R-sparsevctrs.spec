@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : R-sparsevctrs
-Version  : 0.3.1
-Release  : 4
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/sparsevctrs_0.3.1.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/sparsevctrs_0.3.1.tar.gz
+Version  : 0.3.2
+Release  : 5
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/sparsevctrs_0.3.2.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/sparsevctrs_0.3.2.tar.gz
 Summary  : Sparse Vectors for Use in Data Frames
 Group    : Development/Tools
 License  : MIT
@@ -47,10 +47,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1742479381
+export SOURCE_DATE_EPOCH=1742766312
 
 %install
-export SOURCE_DATE_EPOCH=1742479381
+export SOURCE_DATE_EPOCH=1742766312
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
